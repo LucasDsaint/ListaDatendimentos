@@ -189,6 +189,7 @@ JAZZMIN_UI_TWEAKS = {
 }
 
 MIDDLEWARE = [
+
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
